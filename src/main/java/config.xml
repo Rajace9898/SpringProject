@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean class="com.springcorejava.Person" name="person" p:id="501" p:name="Hari" p:address="kolkata" />
+<!--        <property name="id" value="101"/>-->
+
+<!--        <property name="name" value="Suraj" />-->
+
+<!--        <property name="address" value="London"/>-->
+
+<!--    </bean>-->
+
+    <bean class="com.springcorejava.Person" name="person1" p:id="502" p:name="Gautam" p:address="Hongkong" />
+<!--        <property name="id" value="102"/>-->
+
+<!--        <property name="name" value="Dev" />-->
+
+<!--        <property name="address" value="India"/>-->
+
+<!--    </bean>-->
+
+
+
+</beans>
